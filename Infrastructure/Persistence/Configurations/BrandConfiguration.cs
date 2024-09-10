@@ -28,7 +28,7 @@ namespace Persistence.Configurations
 
             Brand brand2 = new()
             {
-                Id = 1,
+                Id = 2,
                 Name = faker.Commerce.Department(),
                 CreatedDate = DateTime.Now,
                 IsDeleted = false,
@@ -36,7 +36,7 @@ namespace Persistence.Configurations
 
             Brand brand3 = new()
             {
-                Id = 1,
+                Id = 3,
                 Name = faker.Commerce.Department(),
                 CreatedDate = DateTime.Now,
                 IsDeleted = false,

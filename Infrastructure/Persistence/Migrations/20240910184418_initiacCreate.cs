@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class initialCreate : Migration
+    public partial class initiacCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -122,9 +122,9 @@ namespace Persistence.Migrations
                 columns: new[] { "Id", "CreatedDate", "IsDeleted", "Name" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(2009), false, "Shoes, Jewelery & Shoes" },
-                    { 2, new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(2030), false, "Health, Games & Movies" },
-                    { 3, new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(2041), false, "Electronics & Home" }
+                    { 1, new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(5680), false, "Health & Industrial" },
+                    { 2, new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(5687), false, "Home" },
+                    { 3, new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(5694), false, "Jewelery" }
                 });
 
             migrationBuilder.InsertData(
@@ -132,10 +132,10 @@ namespace Persistence.Migrations
                 columns: new[] { "Id", "CreatedDate", "IsDeleted", "Name", "ParentId", "Priorty" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3531), false, "Elektirik", 0, 1 },
-                    { 2, new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3533), false, "Moda", 0, 2 },
-                    { 3, new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3534), false, "Bilgisayar", 1, 1 },
-                    { 4, new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3535), false, "Kadın", 2, 1 }
+                    { 1, new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7792), false, "Elektirik", 0, 1 },
+                    { 2, new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7794), false, "Moda", 0, 2 },
+                    { 3, new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7796), false, "Bilgisayar", 1, 1 },
+                    { 4, new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7797), false, "Kadın", 2, 1 }
                 });
 
             migrationBuilder.InsertData(
@@ -143,9 +143,9 @@ namespace Persistence.Migrations
                 columns: new[] { "Id", "CategoryId", "CreatedDate", "Description", "IsDeleted", "Title" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2024, 9, 3, 20, 51, 43, 674, DateTimeKind.Local).AddTicks(8021), "Sequi domates neque quis ratione.", false, "Uzattı." },
-                    { 2, 3, new DateTime(2024, 9, 3, 20, 51, 43, 674, DateTimeKind.Local).AddTicks(8060), "Quaerat quia gördüm voluptatem qui.", true, "Exercitationem ex." },
-                    { 3, 4, new DateTime(2024, 9, 3, 20, 51, 43, 674, DateTimeKind.Local).AddTicks(8087), "Odit nisi rem esse kutusu.", false, "İusto." }
+                    { 1, 1, new DateTime(2024, 9, 10, 21, 44, 18, 406, DateTimeKind.Local).AddTicks(2241), "Eve düşünüyor et açılmadan vitae.", false, "Işık." },
+                    { 2, 3, new DateTime(2024, 9, 10, 21, 44, 18, 406, DateTimeKind.Local).AddTicks(2281), "Totam dolorem praesentium bahar domates.", true, "Consectetur bahar." },
+                    { 3, 4, new DateTime(2024, 9, 10, 21, 44, 18, 406, DateTimeKind.Local).AddTicks(2369), "İure cezbelendi ama velit türemiş.", false, "Corporis." }
                 });
 
             migrationBuilder.CreateIndex(
