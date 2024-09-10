@@ -15,9 +15,7 @@ namespace Persistence
         public static void AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-
-        }// this parametresini kullanmamızdaki amaç buradaki AddPersistence, IserviceCollection a ek olarak çalışan bir servis haline gelir.
-        // IserviceCollection.AddPersistence() olur!!!!!!  
+        }
 
     }
 }

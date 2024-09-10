@@ -19,7 +19,6 @@ namespace Persistence.Context
         {
         }
 
-
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Detail> Details { get; set; }
         public DbSet<Category> Categories { get; set; }

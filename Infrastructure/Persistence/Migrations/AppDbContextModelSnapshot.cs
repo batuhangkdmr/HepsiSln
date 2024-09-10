@@ -64,23 +64,23 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(2009),
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(5680),
                             IsDeleted = false,
-                            Name = "Shoes, Jewelery & Shoes"
+                            Name = "Health & Industrial"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(2030),
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(5687),
                             IsDeleted = false,
-                            Name = "Health, Games & Movies"
+                            Name = "Home"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(2041),
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(5694),
                             IsDeleted = false,
-                            Name = "Electronics & Home"
+                            Name = "Jewelery"
                         });
                 });
 
@@ -116,7 +116,7 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3531),
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7792),
                             IsDeleted = false,
                             Name = "Elektirik",
                             ParentId = 0,
@@ -125,7 +125,7 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3533),
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7794),
                             IsDeleted = false,
                             Name = "Moda",
                             ParentId = 0,
@@ -134,7 +134,7 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3534),
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7796),
                             IsDeleted = false,
                             Name = "Bilgisayar",
                             ParentId = 1,
@@ -143,7 +143,7 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 673, DateTimeKind.Local).AddTicks(3535),
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 402, DateTimeKind.Local).AddTicks(7797),
                             IsDeleted = false,
                             Name = "Kadın",
                             ParentId = 2,
@@ -187,28 +187,28 @@ namespace Persistence.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 674, DateTimeKind.Local).AddTicks(8021),
-                            Description = "Sequi domates neque quis ratione.",
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 406, DateTimeKind.Local).AddTicks(2241),
+                            Description = "Eve düşünüyor et açılmadan vitae.",
                             IsDeleted = false,
-                            Title = "Uzattı."
+                            Title = "Işık."
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 674, DateTimeKind.Local).AddTicks(8060),
-                            Description = "Quaerat quia gördüm voluptatem qui.",
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 406, DateTimeKind.Local).AddTicks(2281),
+                            Description = "Totam dolorem praesentium bahar domates.",
                             IsDeleted = true,
-                            Title = "Exercitationem ex."
+                            Title = "Consectetur bahar."
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 4,
-                            CreatedDate = new DateTime(2024, 9, 3, 20, 51, 43, 674, DateTimeKind.Local).AddTicks(8087),
-                            Description = "Odit nisi rem esse kutusu.",
+                            CreatedDate = new DateTime(2024, 9, 10, 21, 44, 18, 406, DateTimeKind.Local).AddTicks(2369),
+                            Description = "İure cezbelendi ama velit türemiş.",
                             IsDeleted = false,
-                            Title = "İusto."
+                            Title = "Corporis."
                         });
                 });
 
