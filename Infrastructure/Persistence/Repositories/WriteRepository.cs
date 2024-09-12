@@ -39,7 +39,7 @@ namespace Persistence.Repositories
             await Task.Run(() => Table.Remove(entity));
         }
 
-       
+
 
 
     }
