@@ -20,9 +20,9 @@ namespace HepsiAPI.Application.Interfaces.Repositories
           bool enableTracking = false, int currentPage = 1, int pageSize = 3);
         // mevcut sayfada ilk 3 veriyi alıcak currentPage yi 2 yaparsak ilk 3 değil son 3 veriyi alıyor olacak 
 
-        Task<IList<T>> GetAsync(Expression<Func<T, bool>> predicate, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null,
+        Task<T> GetAsync(Expression<Func<T, bool>> predicate, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null,
             bool enableTracking = false);
-        IQueryable<T> Find(Expression<Func<T, bool>> predicate);
+        IQueryable<T> Find(Expression<Func<T, bool>> predicate, bool enableTracking = false);
 
         Task<int> CountAysnc(Expression<Func<T, bool>>? predicate = null);
     }
