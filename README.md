@@ -16,7 +16,7 @@ Bu proje, ürünler, markalar ve kategoriler için CRUD işlemleri sağlayan bir
 
 1. Projeyi bilgisayarınıza klonlayın:
    ```bash
-   git clone https://github.com/barisyonel/HepsiSln.git
+   git clone https://github.com/batuhangkdmr/HepsiSln
    ```
 
 2. Proje dizinine gidin ve bağımlılıkları yükleyin.
